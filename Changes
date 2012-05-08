@@ -1,5 +1,6 @@
 Revision history for Perl module PerlGSL::Integration::MultiDim.
 
-0.001  
+0.001  May 8, 2102
 	- Initial release
+	- First release from the PerlGSL dist
 

@@ -1,5 +1,5 @@
 {
-   "abstract" : "Multidimensional integration",
+   "abstract" : "A Perlish Interface to the GSL Monte Carlo Integration Library",
    "author" : [
       "Joel Berger <joel.a.berger@gmail.com>"
    ],
@@ -31,7 +31,6 @@
       },
       "runtime" : {
          "requires" : {
-            "parent" : "0",
             "perl" : "5.008"
          }
       }

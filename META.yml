@@ -1,5 +1,5 @@
 ---
-abstract: 'Multidimensional integration'
+abstract: 'A Perlish Interface to the GSL Monte Carlo Integration Library'
 author:
   - 'Joel Berger <joel.a.berger@gmail.com>'
 build_requires:
@@ -21,7 +21,6 @@ provides:
     file: lib/PerlGSL/Integration/MultiDim.pm
     version: 0.001
 requires:
-  parent: 0
   perl: 5.008
 resources:
   bugtracker: http://github.com/jberger/PerlGSL-Integration-MultiDim/issues

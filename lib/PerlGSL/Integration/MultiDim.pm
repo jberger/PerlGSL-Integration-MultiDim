@@ -106,5 +106,5 @@ Copyright (C) 2012 by Joel Berger
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.
 
-The GSL is licensed under the terms of the Gnu Public License (GPL)
+The GSL is licensed under the terms of the GNU General Public License (GPL)
 

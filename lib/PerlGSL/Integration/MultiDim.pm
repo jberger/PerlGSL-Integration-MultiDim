@@ -17,16 +17,19 @@ our @EXPORT_OK = ( qw/
 / );
 
 sub int_multi {
-  my $opts;
-  if (eval { ref $_[-1] eq 'HASH' }) {
-    $opts = pop;
+  croak "int_multi requires 3 arguments, aside from an options hash(ref)" 
+    unless @_ >= 3;
+
+  my ($sub, $xl, $xu) = (shift, shift, shift);
+ 
+  my %opts;
+  if (@_) {
+    %opts = ref $_[0] ? %{shift()} : @_;
   }
-  $opts->{calls} ||= 500000;
 
-  croak "int_multi requires 3 arguments, aside from an options hashref" 
-    unless @_ == 3;
+  $opts{calls} ||= 500000;
 
-  my $ret = c_int_multi(@_, $opts->{calls});
+  my $ret = c_int_multi($sub, $xl, $xu, $opts{calls});
   return wantarray ? @$ret : $ret->[0];
 }
 

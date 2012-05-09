@@ -19,11 +19,11 @@ no_index:
 provides:
   PerlGSL::Integration::MultiDim:
     file: lib/PerlGSL/Integration/MultiDim.pm
-    version: 0.001
+    version: 0.002
 requires:
   perl: 5.008
 resources:
   bugtracker: http://github.com/jberger/PerlGSL-Integration-MultiDim/issues
   license: http://dev.perl.org/licenses/
   repository: http://github.com/jberger/PerlGSL-Integration-MultiDim
-version: 0.001
+version: 0.002

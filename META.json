@@ -38,7 +38,7 @@
    "provides" : {
       "PerlGSL::Integration::MultiDim" : {
          "file" : "lib/PerlGSL/Integration/MultiDim.pm",
-         "version" : "0.001"
+         "version" : "0.002"
       }
    },
    "release_status" : "stable",
@@ -53,5 +53,5 @@
          "url" : "http://github.com/jberger/PerlGSL-Integration-MultiDim"
       }
    },
-   "version" : "0.001"
+   "version" : "0.002"
 }

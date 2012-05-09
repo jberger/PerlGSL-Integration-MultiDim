@@ -87,6 +87,10 @@ L<PerlGSL>
 
 =item *
 
+L<PerlGSL::Integration::SingleDim>
+
+=item *
+
 L<http://www.gnu.org/software/gsl/manual/html_node/Monte-Carlo-Integration.html>
 
 =back

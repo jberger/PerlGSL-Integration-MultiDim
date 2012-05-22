@@ -62,6 +62,7 @@ AV* c_int_multi(SV* eqn, AV* lower, AV* upper, int calls) {
   struct params myparams;
   gsl_monte_function F;
   AV* ret = newAV();
+  sv_2mortal((SV*)ret);
 
   /* deal with lower and upper limits */
 

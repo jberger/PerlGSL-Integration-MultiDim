@@ -2,6 +2,7 @@ Revision history for Perl module PerlGSL::Integration::MultiDim.
 
 0.003  
 	- Opts can be hash or hashref, symmetric with SingleDim
+	- Fix memory leak
 
 0.002  May 9, 2012
 	- Don't attempt to install without GSL
